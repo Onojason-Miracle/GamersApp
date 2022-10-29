@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-div{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+
+.desc{
+    color: orange;
+}
+.desc:hover{
+    color: orange; 
+}
+
+.navbar ul{
+  display: flex;
+    
+}
+.navbar li{
+    list-style-type: none;
+    padding:5px 30px 0px 30px;
+
+}
+.navbar li a{
+    color: orange;
+    text-decoration: none;
+    font-size: 18px;  
+}
+
+.navbar li a:hover{
+    background-color: orange;
+    color: black;
+    border-radius: 30px;
+    padding: 8px 15px 8px 15px;
+}
+.wrapper{
+    /* background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://res.cloudinary.com/blackgirlmagic/image/upload/v1665095207/Gamers/pexels-tima-miroshnichenko-6499014_cqv2ic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    height: 550px;
+    padding-top: 100px;
+    width: 100%;
+}
+.mySlides {display: none;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+height: 550px;}
+/* img {vertical-align:auto;} */
+.slideshow-container {
+    max-width: 10000px;
+    position: relative;
+    margin: auto;   
+  }
+  .slider1{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://res.cloudinary.com/blackgirlmagic/image/upload/v1665097766/Gamers/8F615E79-C961-4D19-BCE5-F19EAA93A9FE_bjzfdm.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+  }
+
+  .slider2{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://res.cloudinary.com/blackgirlmagic/image/upload/v1665097765/Gamers/90_o888vf.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+  }
+
+  .slider3{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://res.cloudinary.com/blackgirlmagic/image/upload/v1665095207/Gamers/pexels-tima-miroshnichenko-6499014_cqv2ic.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
+  }
+
+  carousel-img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+     
+  }
+  
+
+  .text {
+    color: orange;
+    /* font-size: 15px; */
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .text2{
+    color: orange;
+    /* font-size: 15px; */
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align:right;
+    padding-right: 50px;
+  }
+  .fade {
+    animation-name: fade;
+    animation-duration: 5.5s;
+  }
+  
+   @keyframes fade {
+    from {opacity: 2} 
+    to {opacity: 1}
+  } 
+
+  .Games{
+    /* height:500px; */
+    background-color: black;
+    padding-top: 50px;
+    padding-top: 100px;
+  }
+  .Games h1{
+    color: orange;
+    text-align: center;
+    font-size: 60px;
+  }
+  .games-div{
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+    align-items: center;
+    
+    /* gap: 20px; */
+  }
+
+  .g-div{
+    height: 300px;
+    border-radius: 30px;
+    background-color: rgba(193, 15, 238,0.5);
+    width: 100%;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 30px;
+    
+  }
+
+  /* icons{
+    font-size: 100px;
+    color: orange;
+    font-size: 100px;
+    color: orange;
+    margin: auto;
+    padding: auto;
+    align-self: center;
+
+  }
+   */
