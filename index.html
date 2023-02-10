@@ -9,7 +9,10 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" media="all">
 <!-- JavaScript Bundle with Popper -->
-<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
 <!--Gamers css and js-->
 <link href="gamers.css" rel="stylesheet" type="text/css"/>
     <script defer src="gamers.js"></script>
@@ -23,18 +26,69 @@
         <div class="wrapper ">
             <div class="slideshow-container">
 
+<!-- 
+
+
+              <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <div class="desc">
+                      <h2>Gamers App</h2>
+                      <p></p>
+                     </div>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Games</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Hub</a>
+                      </li>
+                     
+                    </ul>
+                  </div>
+                </div>
+              </nav> -->
+
+
+
+ 
               <div class="navbar-div">
-                <nav class="navbar">
-                   <div class="desc">
-                    <h2>Gamers App</h2>
-                    <p></p>
-                   </div>
-                   <div>
-                    <svg   class="hamburger" width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M0 0H24V3H0V0ZM0 7.5H24V10.5H0V7.5ZM0 15H24V18H0V15Z" fill="orange"/>
-                      </svg>
-                   </div>
-                    <ul>
+          <nav class="topnav" id="topnav">
+                  <div>
+                    <div class="desc">
+                      <h2>Gamers App</h2>
+                      <p></p>
+                     </div>
+                     <div>
+                      
+  
+                      <a href="javascript:void(0);" class="hamburger" id="hamburger"
+                      onclick="myFunction()">
+                        <svg   class="" width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0 0H24V3H0V0ZM0 7.5H24V10.5H0V7.5ZM0 15H24V18H0V15Z" fill="orange"/>
+                          </svg>
+                      </a>
+                     
+                     </div>
+                  </div>
+
+                    <ul id ="menu">
                        <li><a href="">Home</a></li>
         
                         <li><a href="">About</a></li>
@@ -47,12 +101,12 @@
                     </ul>
         
                 </nav>    
-            </div>
+            </div> 
 
-                <div class="mySlides fade slider1">
+                <div class="mySlides fade slider1" id="mySlides">
                   <div class="text1">
                     <h3>Adding great fun to life by gaming!<br>Tips on how to talk to someone while they're gaming: Don't. LIFE</h3>
-                    <p class="socials-p">
+                    <!-- <p class="socials-p">
                       <a href=""  class="socials">
                         <i class="fab fa-linkedin" class="social-icon"></i>
                       </a> 
@@ -64,7 +118,7 @@
                       <a href="" class="socials">
                         <i class="fab fa-facebook-square" class="social-icon"></i>
                       </a>
-                    </p>
+                    </p> -->
                   </div>
                 </div>
                 
@@ -73,7 +127,7 @@
                     <h3>I'm a gamer, Not because I don't have a life.But because I choose to have many.
                     i have an opportunity to focus my energy,with relentless optimism, at something i'm good at! 
                     </h3>
-                    <p class="socials-p">
+                    <!-- <p class="socials-p">
                       <a href=""  class="socials">
                         <i class="fab fa-linkedin" class="social-icon"></i>
                       </a> 
@@ -85,7 +139,7 @@
                       <a href="" class="socials">
                         <i class="fab fa-facebook-square" class="social-icon"></i>
                       </a>
-                    </p>
+                    </p> -->
                   </div>
                 </div>
                 
@@ -93,7 +147,7 @@
                   <div class="text3">
                     <h3>I'm the hero of a thousand stories.I am a spartan,I've saved a thousand worlds and countless more lives.What am I? I'm a game
                     </h3>
-                    <p class="socials-p">
+                    <!-- <p class="socials-p">
                       <a href=""  class="socials">
                         <i class="fab fa-linkedin" class="social-icon"></i>
                       </a> 
@@ -105,7 +159,7 @@
                       <a href="" class="socials">
                         <i class="fab fa-facebook-square" class="social-icon"></i>
                       </a>
-                    </p>
+                    </p> -->
                   </div>
                 </div>
                 
@@ -114,7 +168,7 @@
             
         </div>
     </section >
-    <section class="Games row g-0 ">
+    <section class="Games row g-0 " id="games">
         <h2>Trending Games</h2>
         <div class="games-div ">
             <div class="col-md-3  g-div">
@@ -462,8 +516,9 @@
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
               </div>
 
-              <div class="section-5-imgdiv ">
-                <div class=" col-md-4 section-5-img1">
+              <ul class="section-5-imgdiv " id="Games-fetch">
+                
+                <!-- <div class=" col-md-4 section-5-img1">
                       
                 </div>
                 <div  class=" col-md-4 section-5-img2"></div>
@@ -472,13 +527,13 @@
                   
                 </div>
                 <div class=" col-md-4 section-5-img5"></div>
-                <div class=" col-md-4 section-5-img6"></div>
+                <div class=" col-md-4 section-5-img6"></div> -->
                 
                 
                
-              </div>
+              </ul>
               <div class="text-center mt-4">
-                <button class="section-5-btn btn btn-light mt-md-3">See All</button>
+                <button class="section-5-btn btn btn-light mt-md-3 " id="miracle">See All</button>
               </div>
 
             </section>
@@ -560,6 +615,6 @@
             </div>
 
         
-   
+           
 </body>
 </html>
